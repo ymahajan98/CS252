@@ -1,0 +1,7 @@
+{
+  "name": "CabRental",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

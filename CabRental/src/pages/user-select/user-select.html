@@ -1,0 +1,107 @@
+<!--
+  Generated template for the UserSelectPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Book Now!</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-item>
+	  <ion-label>Start Time</ion-label>
+	  <ion-select [(ngModel)]="start">
+	    <ion-option value="0">0000 hours</ion-option>
+	    <ion-option value="1">0100 hours</ion-option>
+	    <ion-option value="2">0200 hours</ion-option>
+	    <ion-option value="3">0300 hours</ion-option>
+	    <ion-option value="4">0400 hours</ion-option>
+	    <ion-option value="5">0500 hours</ion-option>
+	    <ion-option value="6">0600 hours</ion-option>
+	    <ion-option value="7">0700 hours</ion-option>
+	    <ion-option value="8">0800 hours</ion-option>
+	    <ion-option value="9">0900 hours</ion-option>
+	    <ion-option value="10">1000 hours</ion-option>
+	    <ion-option value="11">1100 hours</ion-option>
+	    <ion-option value="12">1200 hours</ion-option>
+	    <ion-option value="13">1300 hours</ion-option>
+	    <ion-option value="14">1400 hours</ion-option>
+	    <ion-option value="15">1500 hours</ion-option>
+	    <ion-option value="16">1600 hours</ion-option>
+	    <ion-option value="17">1700 hours</ion-option>
+	    <ion-option value="18">1800 hours</ion-option>
+	    <ion-option value="19">1900 hours</ion-option>
+	    <ion-option value="20">2000 hours</ion-option>
+	    <ion-option value="21">2100 hours</ion-option>
+	    <ion-option value="22">2200 hours</ion-option>
+	    <ion-option value="23">2300 hours</ion-option>
+	  </ion-select>
+	</ion-item>
+
+	<ion-item>
+	  <ion-label>End Time</ion-label>
+	  <ion-select [(ngModel)]="end">
+	    <ion-option value="1">0100 hours</ion-option>
+	    <ion-option value="2">0200 hours</ion-option>
+	    <ion-option value="3">0300 hours</ion-option>
+	    <ion-option value="4">0400 hours</ion-option>
+	    <ion-option value="5">0500 hours</ion-option>
+	    <ion-option value="6">0600 hours</ion-option>
+	    <ion-option value="7">0700 hours</ion-option>
+	    <ion-option value="8">0800 hours</ion-option>
+	    <ion-option value="9">0900 hours</ion-option>
+	    <ion-option value="10">1000 hours</ion-option>
+	    <ion-option value="11">1100 hours</ion-option>
+	    <ion-option value="12">1200 hours</ion-option>
+	    <ion-option value="13">1300 hours</ion-option>
+	    <ion-option value="14">1400 hours</ion-option>
+	    <ion-option value="15">1500 hours</ion-option>
+	    <ion-option value="16">1600 hours</ion-option>
+	    <ion-option value="17">1700 hours</ion-option>
+	    <ion-option value="18">1800 hours</ion-option>
+	    <ion-option value="19">1900 hours</ion-option>
+	    <ion-option value="20">2000 hours</ion-option>
+	    <ion-option value="21">2100 hours</ion-option>
+	    <ion-option value="22">2200 hours</ion-option>
+	    <ion-option value="23">2300 hours</ion-option>
+	    <ion-option value="24">Tom: 0000 hours</ion-option>
+	    <ion-option value="25">Tom: 0100 hours</ion-option>
+	    <ion-option value="26">Tom: 0200 hours</ion-option>
+	    <ion-option value="27">Tom: 0300 hours</ion-option>
+	    <ion-option value="28">Tom: 0400 hours</ion-option>
+	    <ion-option value="29">Tom: 0500 hours</ion-option>
+	    <ion-option value="30">Tom: 0600 hours</ion-option>
+	    <ion-option value="31">Tom: 0700 hours</ion-option>
+	    <ion-option value="32">Tom: 0800 hours</ion-option>
+	    <ion-option value="33">Tom: 0900 hours</ion-option>
+	    <ion-option value="34">Tom: 1000 hours</ion-option>
+	    <ion-option value="35">Tom: 1100 hours</ion-option>
+	    <ion-option value="36">Tom: 1200 hours</ion-option>
+	    <ion-option value="37">Tom: 1300 hours</ion-option>
+	    <ion-option value="38">Tom: 1400 hours</ion-option>
+	    <ion-option value="39">Tom: 1500 hours</ion-option>
+	    <ion-option value="40">Tom: 1600 hours</ion-option>
+	    <ion-option value="41">Tom: 1700 hours</ion-option>
+	    <ion-option value="42">Tom: 1800 hours</ion-option>
+	    <ion-option value="43">Tom: 1900 hours</ion-option>
+	    <ion-option value="44">Tom: 2000 hours</ion-option>
+	    <ion-option value="45">Tom: 2100 hours</ion-option>
+	    <ion-option value="46">Tom: 2200 hours</ion-option>
+	    <ion-option value="47">Tom: 2300 hours</ion-option>
+	    <ion-option value="48">Tom: 2400 hours</ion-option>
+	  </ion-select>
+	</ion-item>
+
+  <ion-row center>
+  	<ion-col text-center>
+  		<button ion-button color="dark" round (click)="openRM(start,end)">Show Rides</button>
+  	</ion-col>
+  </ion-row>
+
+</ion-content>
